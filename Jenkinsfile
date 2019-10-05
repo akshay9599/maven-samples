@@ -11,7 +11,6 @@ pipeline {
             }
         }
 
-    stages {
         stage ('Testing Stage') {
 
             steps {
@@ -21,7 +20,6 @@ pipeline {
             }
         }
 
-    stages {
         stage ('Deployment Stage') {
 
             steps {
@@ -32,4 +30,5 @@ pipeline {
         }
 
     }
+}
 }
